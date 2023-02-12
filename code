@@ -1,0 +1,9 @@
+// Concatenation of array
+let nums = [1,2,3,4]
+let ans = [5,6,7,8]
+let res =[]
+for(i=0;i<nums.length;i++){
+  res.push(nums[i],ans[i]);
+}
+console.log(res);
+  
